@@ -1,0 +1,12 @@
+/public          --> arquivos públicos (imagens, favicon, robots.txt, etc.)
+/src
+  /app           --> rotas do seu site (cada pasta = rota)
+  /styles        --> CSS global, temas, etc.
+  /components    --> componentes reutilizáveis (botões, cabeçalhos, etc.)
+  /lib           --> bibliotecas e funções auxiliares (opcional)
+  /utils         --> funções utilitárias (opcional)
+  /hooks         --> seus custom hooks (opcional)
+next.config.js   --> configurações do Next
+package.json     --> dependências e scripts
+tsconfig.json    --> configurações do TypeScript
+tailwind.config.js --> configurações do TailwindCSS
