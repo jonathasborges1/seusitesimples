@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 import { Montserrat } from "next/font/google";
+import LogAppVersion from "@/components/LogAppVersion";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <LogAppVersion />
       </body>
     </html>
   );
