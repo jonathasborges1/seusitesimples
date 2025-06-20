@@ -22,10 +22,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: 📦 Instalar dependências parte 1
-        run: npm install -g npm@10.2.5
+      - name: 📦 Atualizar para a última versão do npm
+        run: npm install -g npm
 
-      - name: 📦 Instalar dependências parte 2
+      - name: 🔍 Verificar versão do npm
+        run: npm -v
+
+      - name: 📦 Instalar dependências
         run: npm install --legacy-peer-deps
 
       - name: 🔢 Gerar versão baseada em commits
