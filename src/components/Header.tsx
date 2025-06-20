@@ -14,7 +14,9 @@ export const Header = () => {
             className="object-contain"
           />
           <span className="text-2xl font-bold text-blue-600">
-            Seu Site Simples
+            <strong className="text-[#00BFFF]">S</strong>eu{" "}
+            <strong className="text-[#00AEEF]">S</strong>ite{" "}
+            <strong className="text-[#00AEFF]">S</strong>imples
           </span>
         </Link>
         <nav className="hidden md:hidden space-x-6">
