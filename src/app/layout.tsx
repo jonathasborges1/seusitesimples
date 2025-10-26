@@ -33,9 +33,9 @@ export const metadata = {
     siteName: "Seu Site Simples",
     type: "website",
     locale: "pt_BR",
-    verification: {
-      google: "-aEdvna45HfuoQzvEtZiYF0J6Q6snzapEc1lmIuTmGU",
-    },
+  },
+  verification: {
+    google: "-aEdvna45HfuoQzvEtZiYF0J6Q6snzapEc1lmIuTmGU",
   },
 };
 
